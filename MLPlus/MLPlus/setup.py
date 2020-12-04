@@ -14,10 +14,11 @@ setup(
     keywords = "Machine Learning",
     url = "",
     packages=find_packages(),
-    long_description=read('README'),
+    long_description=read('README.md'),
     classifiers=[
-        "Development Status :: 0 - Alpha",
+        "Programming Language :: Python :: 3",
         "Topic :: Utilities",
-        "License :: OSI Approved :: BSD License",
-    ]
+        "License :: OSI Approved :: MIT License",
+    ],
+    python_requires='>=3.6'
 )
