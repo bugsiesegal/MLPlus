@@ -1,5 +1,5 @@
 import numpy as np
-class MLPlus():
+class MLUtils():
     def __init__(self):
         self.data = None
 
