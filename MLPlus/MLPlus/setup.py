@@ -1,8 +1,9 @@
-from setuptools import setup
+from setuptools import *
 import os
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
+
 
 setup(
     name = "MLPlus",
@@ -10,9 +11,9 @@ setup(
     author = "Bugsie Segal",
     description = ("Screw dataprocessing"),
     license = "BSD",
-    keywords = "example documentation tutorial",
+    keywords = "Machine Learning",
     url = "",
-    packages=['an_example_pypi_project', 'tests'],
+    packages=find_packages(),
     long_description=read('README'),
     classifiers=[
         "Development Status :: 0 - Alpha",
